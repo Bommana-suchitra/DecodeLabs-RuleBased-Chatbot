@@ -1,0 +1,253 @@
+# ============================================================================
+# PYTHON CACHE FILES
+# ============================================================================
+# Python bytecode
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# Scrapy stuff:
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+target/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# pipenv
+Pipfile.lock
+
+# PEP 582
+__pypackages__/
+
+# Celery stuff
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath parsed files
+*.sage.py
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.env.local
+.env.*.local
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# ============================================================================
+# STREAMLIT CACHE & TEMPORARY FILES
+# ============================================================================
+.streamlit/cache/
+.streamlit/cache_arrow/
+.streamlit/*.db
+streamlit_logger.txt
+.streamlit/secrets.toml
+.streamlit/config.toml
+
+# ============================================================================
+# VS CODE CONFIGURATION
+# ============================================================================
+.vscode/
+.vscode/*
+!.vscode/settings.json
+!.vscode/launch.json
+*.code-workspace
+.history/
+
+# ============================================================================
+# IDE & EDITOR FILES
+# ============================================================================
+.idea/
+.idea/*
+*.swp
+*.swo
+*~
+.DS_Store
+*.sublime-project
+*.sublime-workspace
+.classpath
+.project
+.pydevproject
+.settings/
+*.sublime-settings
+
+# ============================================================================
+# OS-SPECIFIC FILES
+# ============================================================================
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.cab
+*.lnk
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# Linux
+.directory
+.Trash-*
+
+# ============================================================================
+# LOG FILES
+# ============================================================================
+*.log
+logs/
+*.log.*
+log.txt
+
+# ============================================================================
+# TEMPORARY & BUILD FILES
+# ============================================================================
+*.tmp
+*.temp
+*.bak
+*.backup
+*.swp
+*.swo
+*~
+.#*
+
+# ============================================================================
+# DEPENDENCY LOCK FILES (Uncomment if needed)
+# ============================================================================
+# poetry.lock
+# Pipfile.lock
+
+# ============================================================================
+# ADDITIONAL TEMPORARY FILES
+# ============================================================================
+*.pid
+*.seed
+*.seed.*
+*.pid.lock
+.webassets-cache
+
+# ============================================================================
+# PRIVATE FILES
+# ============================================================================
+secrets.json
+.secrets/
+private_keys/
+credentials.json
+config.json
+
+# ============================================================================
+# DATABASE FILES (If applicable)
+# ============================================================================
+*.db
+*.sqlite
+*.sqlite3
+
+# ============================================================================
+# VSCODE EXTENSIONS CACHE
+# ============================================================================
+extensions/
+
+# ============================================================================
+# PROJECT-SPECIFIC (Keep commented unless needed)
+# ============================================================================
+# Uncomment below if you have project-specific files to ignore
+# *.pkl
+# *.pickle
+# temp_data/
+# cache_data/
+# models/downloads/
